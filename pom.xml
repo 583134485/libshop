@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <!-- 集中定义管理依赖版本号 -->
     <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring.version>4.3.12.RELEASE</spring.version>
         <dubbo.version>2.6.1</dubbo.version>
         <zookeeper.version>3.4.10</zookeeper.version>
@@ -19,6 +20,7 @@
 
     <modules>
         <module>libshop-demo</module>
+        <module>libshop-common</module>
     </modules>
 
     <dependencyManagement>
