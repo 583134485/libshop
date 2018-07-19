@@ -7,6 +7,12 @@
     <groupId>com.guo</groupId>
     <artifactId>libshop</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+        </dependency>
+    </dependencies>
     <packaging>pom</packaging>
     <!-- 集中定义管理依赖版本号 -->
     <properties>
@@ -21,6 +27,8 @@
     <modules>
         <module>libshop-demo</module>
         <module>libshop-common</module>
+        <module>libshop-cms</module>
+        <module>libshop-admin</module>
     </modules>
 
     <dependencyManagement>
