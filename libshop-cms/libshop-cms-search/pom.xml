@@ -10,10 +10,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>libshop-cms-search</artifactId>
-    <packaging>war</packaging>
+    <packaging>pom</packaging>
 
     <name>libshop-cms-search</name>
     <url>http://www.example.com</url>
+    <modules>
+        <module>libshop-cms-search-api</module>
+        <module>libshop-cms-search-service</module>
+    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -22,24 +26,7 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>com.guo</groupId>
-            <artifactId>libshop-cms-rpc-api</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>servlet-api</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>jstl</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <scope>test</scope>
-        </dependency>
+
     </dependencies>
 
     <build>

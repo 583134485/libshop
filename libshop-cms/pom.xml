@@ -14,6 +14,7 @@
     <modules>
         <module>libshop-cms-search</module>
         <module>libshop-cms-rpc-api</module>
+        <module>libshop-cms-rpc-service</module>
     </modules>
 <dependencyManagement>
     <dependencies>
