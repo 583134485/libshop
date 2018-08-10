@@ -7,6 +7,6 @@ import org.springframework.stereotype.Service;
 public class DemoSearchImpl implements DemoSearch {
     @Override
     public String DemoSearch(String s) {
-        return "Hello Darling";
+        return "From+"+s;
     }
 }

@@ -55,6 +55,19 @@
           <groupId>org.apache.zookeeper</groupId>
           <artifactId>zookeeper</artifactId>
       </dependency>
+      <dependency>
+          <groupId>org.apache.curator</groupId>
+          <artifactId>curator-framework</artifactId>
+      </dependency>
+      <!--log-->
+      <dependency>
+          <groupId>log4j</groupId>
+          <artifactId>log4j</artifactId>
+      </dependency>
+      <dependency>
+          <groupId>org.slf4j</groupId>
+          <artifactId>slf4j-api</artifactId>
+      </dependency>
       <!--<dependency>-->
           <!--<groupId>javax.servlet</groupId>-->
           <!--<artifactId>servlet-api</artifactId>-->
@@ -72,7 +85,7 @@
     <build>
 
         <!--jar包名称-->
-        <finalName>libshop-demo-provider</finalName>
+        <finalName>libshop-cms-search</finalName>
         <resources>
             <!--recources文件夹下的所有文件都打进jar包-->
             <resource>
@@ -91,7 +104,7 @@
                 <directory>src/main/resources</directory>
                 <filtering>true</filtering>
                 <includes>
-                    <include>provider.xml</include>
+                    <include>search.xml</include>
                 </includes>
             </resource>
         </resources>
