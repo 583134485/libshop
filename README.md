@@ -1,3 +1,3 @@
 # libshop
-java web service  with dubbo
-and it may develop into a great project
+try to study at java web service  with dubbo
+and may become to a great project
